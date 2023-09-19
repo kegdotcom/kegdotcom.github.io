@@ -4,7 +4,7 @@
     url("https://images.ctfassets.net/63bmaubptoky/8e6EHyyhZoA2rEb_gcW_Wqp1UYa-QFOfol6A_hLTDo4/d07539f9788941b43e301c741bc144ce/what-is-software-CA-Capterra-Header.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: fit;
+  background-size: contain;
   background-attachment: fixed;
   position: relative;
   display: flex;
