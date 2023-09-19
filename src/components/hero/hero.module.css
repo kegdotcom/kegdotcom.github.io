@@ -1,0 +1,53 @@
+.heroImage {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.ctfassets.net/63bmaubptoky/8e6EHyyhZoA2rEb_gcW_Wqp1UYa-QFOfol6A_hLTDo4/d07539f9788941b43e301c741bc144ce/what-is-software-CA-Capterra-Header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fit;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--uv);
+  background: none;
+  text-align: center;
+  padding: 16px 24px;
+  margin: 12px;
+}
+
+h1.name {
+  margin: 8px;
+  font-size: 36px;
+}
+
+h3.descrption {
+  font-size: 24px;
+}
+
+.linkGroup {
+  padding: 8px 12px;
+  margin: 8px;
+}
+
+a.contact {
+  margin: 100px 4px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--dark);
+  color: var(--uv);
+  transition: color, background-color 0.3s ease-out;
+}
+
+a.contact:hover {
+  color: var(--dark);
+  background-color: var(--uv);
+}
