@@ -17,7 +17,7 @@ export default function Project({
 }: ProjectProps) {
   return (
     <div className={styles.project}>
-      <h3 className={styles.name}>
+      <h3 className={styles.header}>
         <Icon name="dash-lg" />{" "}
         {url ? (
           <a className={styles.name} href={url} target="_blank">
@@ -28,6 +28,7 @@ export default function Project({
         )}
       </h3>
       <p className={styles.description}>{description}</p>
+      <h5 className={styles.subheader}>Technologies Used:</h5>
       <ul className={styles.techList}>
         {technologies.map((tech: string) => {
           return (
