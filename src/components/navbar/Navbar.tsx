@@ -25,6 +25,9 @@ export default function Navbar() {
           <a className={styles.link} href="#experience">
             Experience
           </a>
+          <a className={styles.link} href="#involvement">
+            Involvement
+          </a>
         </div>
       </div>
     </nav>
