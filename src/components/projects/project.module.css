@@ -53,6 +53,7 @@ a.name:hover::before {
 .subheader {
   margin-bottom: 0;
   color: var(--uv);
+  opacity: 0.7;
   font-size: 14px;
 }
 
@@ -66,6 +67,7 @@ a.name:hover::before {
 .techList > li:before {
   display: inline-block;
   color: var(--uv);
+  opacity: 0.7;
   content: ">";
   width: 1.25em;
   margin-left: -0.5em;

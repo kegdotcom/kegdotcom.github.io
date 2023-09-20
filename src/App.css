@@ -18,6 +18,7 @@ h3.header {
 h5.subheader {
   margin-bottom: 8px;
   color: var(--uv);
+  opacity: 0.7;
   font-size: 14px;
 }
 
@@ -74,5 +75,5 @@ ul.list > li:before {
 hr.listSpacer {
   margin: 2% 0;
   width: 100%;
-  color: var(--uv);
+  border: 1px solid var(--uv);
 }
