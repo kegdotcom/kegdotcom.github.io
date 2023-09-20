@@ -13,6 +13,8 @@
     white,
     white
   );
+  position: fixed;
+  z-index: 1;
 }
 
 .container {
@@ -23,6 +25,16 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+.marker {
+  visibility: hidden;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border: none;
 }
 
 .iconContainer {
@@ -43,20 +55,9 @@
   width: 50vw;
   align-items: center;
   justify-content: flex-end;
-  column-gap: 8%;
-  margin: 8px 5%;
+  column-gap: 4%;
+  margin: 8px 4%;
 }
-
-/* .link {
-  display: inline-block;
-  margin: 8px 5%;
-  padding: 8px;
-  color: rgb(63, 63, 63);
-  background: none;
-  border: none;
-  border-radius: 2px;
-  text-decoration: none;
-} */
 
 .link {
   position: relative;
