@@ -1,11 +1,30 @@
+.project {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 6px 8px;
+}
+
+div.name {
+  display: inline-block;
+  margin: 8px 16px;
+  padding: 4px 8px;
+}
+
+div.content {
+  display: inline-block;
+  margin: 8px 16px;
+  padding: 4px 8px;
+}
+
 a.name {
   position: relative;
-  color: var(--dark);
+  color: var(--uv);
   text-decoration: none;
+  text-wrap: nowrap;
 }
 
 a.name:hover {
-  color: var(--uv);
+  color: var(--dark);
 }
 
 a.name::before {
@@ -26,22 +45,28 @@ a.name:hover::before {
 }
 
 .header {
+  margin-top: 10%;
   color: var(--dark);
   font-size: 18px;
 }
 
 .subheader {
   margin-bottom: 0;
-  color: var(--dark);
+  color: var(--uv);
   font-size: 14px;
 }
 
 .techList {
-  list-style-type: dash;
+  list-style: none;
+  margin-left: 0;
+  margin-top: 4px;
+  padding-left: 1em;
 }
 
-@counter-style dash {
-  system: cyclic;
-  symbols: "\003E";
-  suffix: " ";
+.techList > li:before {
+  display: inline-block;
+  color: var(--uv);
+  content: ">";
+  width: 1.25em;
+  margin-left: -0.5em;
 }

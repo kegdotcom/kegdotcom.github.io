@@ -10,9 +10,15 @@ div.section {
 }
 
 h3.header {
-  margin: 24px 0 0 24px;
+  margin-left: 2%;
   color: var(--dark);
   font-size: 28px;
+}
+
+h5.subheader {
+  margin-bottom: 8px;
+  color: var(--uv);
+  font-size: 14px;
 }
 
 p.about {
@@ -21,10 +27,47 @@ p.about {
   font-size: 18px;
 }
 
-hr {
-  margin: 4% auto;
-  width: 67vw;
+hr.divider {
+  margin: 3% auto;
+  width: 60vw;
   color: var(--dark);
   border: 1px solid var(--dark);
-  border-radius: 20px;
+}
+
+hr.spacer {
+  margin: 0 auto;
+  padding: 0;
+  width: 20vw;
+  color: var(--uv);
+}
+
+hr.smallSpacer {
+  margin: 0.5% auto;
+  width: 4vw;
+  color: var(--uv);
+}
+
+div.skillGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+ul.list {
+  list-style: none;
+  margin: 4px 4% 4px 2%;
+  padding-left: 1em;
+}
+
+ul.list > li:before {
+  display: inline-block;
+  color: var(--uv);
+  content: ">";
+  width: 1.25em;
+  margin-left: -0.5em;
+}
+
+hr.listSpacer {
+  margin: 2% 0;
+  width: 100%;
+  color: var(--uv);
 }

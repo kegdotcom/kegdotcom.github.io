@@ -1,0 +1,40 @@
+div.club {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 24px 8px;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h3.header {
+  margin: 6px 4px;
+  font-size: 18px;
+  color: var(--dark);
+}
+
+h5.subheader {
+  margin: 0 4px;
+  font-size: 14px;
+  color: var(--uv);
+  opacity: 0.7;
+}
+
+p.description {
+  color: var(--dark);
+}
+
+div.image {
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-height: 50%;
+}

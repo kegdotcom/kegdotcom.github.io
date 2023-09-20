@@ -1,0 +1,20 @@
+div.experience {
+  margin: 24px 8px;
+}
+
+h3.header {
+  margin: 6px 4px;
+  font-size: 18px;
+  color: var(--dark);
+}
+
+h5.subheader {
+  margin: 0 4px;
+  font-size: 14px;
+  color: var(--uv);
+  opacity: 0.7;
+}
+
+p.description {
+  color: var(--dark);
+}
