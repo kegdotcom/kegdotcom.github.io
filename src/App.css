@@ -50,6 +50,7 @@ hr.smallSpacer {
 div.skillGrid {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin: 24px 8px;
 }
 
 ul.list {

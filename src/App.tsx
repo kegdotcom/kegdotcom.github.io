@@ -14,8 +14,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <span className="marker" id="about" />
       <Hero />
-      <div className="section" id="about">
+      <div className="section">
         <h3 className="header">About Me</h3>
         <p className="about">
           My name is Keg Avakian and I am a highly motivated and eager Software
@@ -24,8 +25,9 @@ function App() {
           internship for summer 2024.
         </p>
       </div>
+      <span className="marker" id="projects" />
       <hr className="divider" />
-      <div className="section" id="projects">
+      <div className="section">
         <h3 className="header">Projects</h3>
         <Project
           name="DJ Buddy"
@@ -82,8 +84,9 @@ function App() {
           ]}
         />
       </div>
+      <span className="marker" id="skills" />
       <hr className="divider" />
-      <div className="section" id="skills">
+      <div className="section">
         <h3 className="header">Skills</h3>
         <div className="skillGrid">
           <ul className="list">
@@ -127,8 +130,9 @@ function App() {
           </ul>
         </div>
       </div>
+      <span className="marker" id="experience" />
       <hr className="divider" />
-      <div className="section" id="experience">
+      <div className="section">
         <h3 className="header">Experience</h3>
         <Experience
           position="Web Master"
@@ -169,8 +173,9 @@ function App() {
           start="Jan 2018"
         />
       </div>
+      <span className="marker" id="involvement" />
       <hr className="divider" />
-      <div className="section" id="involvement">
+      <div className="section">
         <h3 className="header">Involvement</h3>
         <Club
           name="Undergraduate Projects Lab"
